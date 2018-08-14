@@ -1,8 +1,16 @@
 body{
-  background:grey;
+  background:#effeff;
 }
-
-h2{
-color:red;
-  font-family:arial;       
+.sidenav{
+  height:100%;
+  width:0;
+  position:fixed;
+  z-index:1;
+  top:0;
+  left:0;
+  background-color:#00bfcc;
+  overflow: hidden;
+  padding-top:60px;
+  transition:.5s;
 }
+    

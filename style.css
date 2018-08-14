@@ -7,7 +7,7 @@ body{
   color: #00bfcc;
 }
 
-.openNavBtn hover{
+.openNavBtn :hover{
   color: black;
 }
   

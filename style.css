@@ -1,16 +1,30 @@
 body{
   background:#effeff;
 }
+
 .sidenav{
-  height:100%;
-  width:0;
-  position:fixed;
-  z-index:1;
-  top:0;
-  left:0;
-  background-color:#00bfcc;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #00bfcc;
   overflow: hidden;
-  padding-top:60px;
-  transition:.5s;
+  padding-top: 60px;
+  transition: .5s;
+}
+
+.sidenav a{
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #effeff;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: black;
 }
     

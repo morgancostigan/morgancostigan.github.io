@@ -2,6 +2,15 @@ body{
   background:#effeff;
 }
 
+.openNavBtn{
+  font-size: 25px;
+  color: #00bfcc;
+}
+
+.openNavBtn a:hover{
+  color: black;
+}
+  
 .sidenav{
   height: 100%;
   width: 0;
